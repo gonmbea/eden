@@ -1,0 +1,33 @@
+@import "./variables";
+
+.hero-container{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $cool-background;
+
+    &-logo{
+        img{
+            margin-top: 2rem;
+            height: 100px;
+            width: 100px;
+        }
+    }
+
+    &-text{
+        text-align: center;
+        
+        h1{
+            font-size: 80px;
+            margin-top: -1.5rem;
+        }
+        h3{
+            font-size: 40px;
+            margin-top: -4rem;
+        }
+        h1, h3{
+            font-weight: normal;
+        }
+    }
+}
