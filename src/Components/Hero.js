@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Scss/_hero.scss';
 import edenLogo from '../Assets/edenLogo.png';
-import adobeLogo from '../Assets/Adobe Express - file.png';
+
 
 function Hero() {
   return(
