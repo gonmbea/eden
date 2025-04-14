@@ -1,7 +1,7 @@
 @import "./variables";
 .navbar{
     background-color: $cool-background;
-    height: 5rem;
+    height: $navbar-height;
     display: flex;
     position: fixed;
     width: 100%;
@@ -11,23 +11,23 @@
     &-links{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        gap: $gap-between-items;
         list-style: none;
 
-        li, .link{
-            color: $brown-text;
-            font-family: $font-family-main;
-            font-size: 16px;
-            text-decoration: none;
-            transition: all 0.3s ease 0;
-        }
-
-        li, .link:hover{
-            color: $brown-effects;
-        }
-
         li{
-            padding: 0 15px;
+
+            .link{
+                color: $brown-text;
+                font-family: $font-family-main;
+                font-size: 16px;
+                text-decoration: none;
+                transition: all 0.3s ease 0;
+
+                &:hover{
+                    color: $brown-effects;
+                }
+            }
+
         }
 
     }
