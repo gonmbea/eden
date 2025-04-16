@@ -1,30 +1,36 @@
 @import "./variables";
 
 .hero-container{
-    padding: 5rem;
+    padding-top: $navbar-height;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: $cool-background;
+    min-width: 100%;
+    padding-left: 25px;
+
 
     &-logo{
         img{
-            margin-top: 2rem;
+            margin-top: $hero-vertical-margin;
             height: 100px;
             width: 100px;
         }
     }
 
     &-text{
+        margin: 0;
+        margin-bottom: $hero-vertical-margin;
         text-align: center;
         
         h1{
             font-size: 80px;
-            margin-top: -1.5rem;
+            margin: 0;
         }
         h3{
             font-size: 40px;
-            margin-top: -4rem;
+            margin: 0;
         }
         h1, h3{
             font-weight: normal;

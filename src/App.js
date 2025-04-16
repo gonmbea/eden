@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './Scss/_app.scss';
 
 import NavBar from './Components/NavBar';
-import Contact from './Components/Contact';
 import Hero from './Components/Hero';
+import AboutMe from './Pages/AboutMe';
+import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 
-import AboutMe from './Pages/AboutMe';
+
 
 
 function Home() {
@@ -18,6 +19,9 @@ function Home() {
             </div>
             <div className="Contact">
                 <Contact />
+            </div>
+            <div id="aboutMe" className="AboutMe">
+                <AboutMe />
             </div>
         </>
     );

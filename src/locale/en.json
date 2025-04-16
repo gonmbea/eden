@@ -1,0 +1,22 @@
+{
+    "NavBar":{
+        "aboutMe":"About Me",
+        "projects": "Projects",
+        "art":"Art",
+        "contact": "Contact"
+
+    },
+    "Hero":{
+        "title": "WELCOME",
+        "subtitle":"to my Eden"
+
+    },
+    "AboutMe":{
+        "title": "MEET BEATRIZ",
+        "paragraph":"I’m a Computer Science student with a soft spot for creativity — whether it’s in code, crochet, or cute little sketches. I love blending logic with artistry, and I'm always excited to learn new things and build beautiful, meaningful projects. When I’m not debugging or designing, you’ll probably find me crocheting something cozy or doodling in my sketchbook"
+
+    },
+    "Creations":{
+        "title": "MY CREATIONS"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "NavBar":{
+        "aboutMe":"Sobre Mim",
+        "projects": "Projetos",
+        "art":"Arte",
+        "contact": "Contato"
+
+    },
+    "Hero":{
+        "title": "SEJA BEM-VINDO",
+        "subtitle":"ao meu Éden"
+
+    },
+    "AboutMe":{
+        "title": "SOU BEATRIZ",
+        "paragraph":"I’m a Computer Science student with a soft spot for creativity — whether it’s in code, crochet, or cute little sketches. I love blending logic with artistry, and I'm always excited to learn new things and build beautiful, meaningful projects. When I’m not debugging or designing, you’ll probably find me crocheting something cozy or doodling in my sketchbook"
+
+    },
+    "Creations":{
+        "title": "MINHAS CRIACOES"
+    }
+}
