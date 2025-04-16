@@ -1,12 +1,12 @@
 import React from 'react';
 import '../Scss/_hero.scss';
 import edenLogo from '../Assets/edenLogo.png';
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 
 
 function Hero() {
-  // const { t } = useTranslation();
+  const { t } = useTranslation("Hero");
   
   return(
   <div className='hero-container'>
@@ -15,8 +15,8 @@ function Hero() {
         <img src={edenLogo}/>
     </div>
     <div className='hero-container-text'>
-        <h1>WELCOME</h1>
-        <h3>to my Eden</h3>
+        <h1>{t("title")}</h1>
+        <h3>{t("subtitle")}</h3>
     </div>
 
   </div>

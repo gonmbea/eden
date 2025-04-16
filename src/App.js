@@ -20,7 +20,7 @@ function Home() {
             <div className="Contact">
                 <Contact />
             </div>
-            <div className="AboutMe">
+            <div id="aboutMe" className="AboutMe">
                 <AboutMe />
             </div>
         </>

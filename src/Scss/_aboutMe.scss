@@ -9,7 +9,8 @@ body{
 
     &-container{
         width: 75%;
-        margin: $hero-vertical-margin auto;
+        margin: 0 auto;
+        padding-top: $navbar-height;
         display: flex;
         justify-content: space-between;
     
