@@ -8,7 +8,7 @@ body{
 .about{
 
     &-container{
-        width: 75%;
+        width: $global-central-width;
         margin: 0 auto;
         padding-top: $navbar-height;
         display: flex;

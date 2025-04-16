@@ -15,10 +15,10 @@ function AboutMe() {
                 <h1 className='about-text-heading'>{t("title")}</h1>
                 <p>{t("paragraph")}</p>
                 <div className='about-right-buttons'>
-                    <button className='contact-button'>Contact Me</button>
+                    <button className='contact-button'>{t("contact")}</button>
 
                     <a href={resume} download>
-                        <button className='button'>Resume</button>
+                        <button className='button'>{t("resume")}</button>
                     </a>
                 </div>
                 

@@ -5,6 +5,8 @@ $cool-background: #DBD9CD;
 $neutral-background:#ECE3DE;
 $brown-effects: #6B5448;
 $brown-text:#2F2E2C;
+$purple-deep: #36344D;
+$purple-lighter: #64567C;
 
 /* Text */
 $font-family-main:"Italiana", sans-serif;
@@ -19,7 +21,8 @@ $gap-between-items: 35px;
 $hero-vertical-margin: 2rem;
 
 /* Centralized Page Margin */
-$global-margin: 5rem 10rem;
+// $global-margin: 5rem 10rem;
+$global-central-width: 75%;
 
 /* Button Padding and Margin */
 $button-padding: 0.5rem;
