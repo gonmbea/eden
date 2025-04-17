@@ -6,10 +6,39 @@
     position: fixed;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
+    &-logo{
+        margin-left: 1rem;
+        img{
+            width: 50px;
+            height: auto;
+        }
+    }
+    &-lang{
+        margin-right: 1rem;
+        width: 50px;
+        height: auto;
+
+        &-button{
+            border: none;
+            background-color: transparent;
+            color: $brown-text;
+            font-family: $font-family-main;
+            font-weight: bold;
+            text-decoration: underline;
+
+            &:hover{
+                color: $brown-effects;
+            }
+
+        }
+    }
 
     &-links{
+        padding: 0;
         display: flex;
+        justify-content: center;
         align-items: center;
         gap: $gap-between-items;
         list-style: none;
