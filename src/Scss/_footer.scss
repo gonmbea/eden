@@ -11,11 +11,8 @@
         margin-top: auto;
         position: relative;
 
-    }
+        padding-top: $navbar-height;
 
-    &-icons{
-        display: flex;
-        gap:15px;
     }
     &-email{
         a{
@@ -26,7 +23,23 @@
         }
     }
     &-copyright{
+        p{
+            font-family: $font-family-main;
+        }
         
+    }
+
+    
+    &-icons{
+        display: flex;
+        gap:15px;
+
+        .icon{
+            color: $brown-text;
+            &:hover{
+                color: $brown-effects;
+            }
+        }
     }
 
 

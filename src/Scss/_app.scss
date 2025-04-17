@@ -16,8 +16,12 @@ html{
     
     }
 
-    h1, h2, h3, h4, p, a, Link{
+    h1, h2, h3, h4, a, Link{
         font-family: $font-family-main;
+        color: $brown-text;
+    }
+    p{
+        font-family: $font-family-subtext;
         color: $brown-text;
     }
 }
