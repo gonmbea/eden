@@ -1,5 +1,6 @@
 {
     "NavBar":{
+        "home":"Home",
         "aboutMe":"About Me",
         "projects": "Projects",
         "art":"Art",
@@ -25,7 +26,6 @@
         "crafts": "Crafts"
     },
     "Footer":{
-        "email": "beatrizgonmoura@gmail.com",
         "copyright": "2025 Eden"
     }
 }

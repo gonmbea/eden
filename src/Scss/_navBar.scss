@@ -9,15 +9,15 @@
     justify-content: space-between;
 
     &-logo{
-        margin-left: 1rem;
+        margin-left: $side-margin;
         img{
-            width: 50px;
+            width: $logo-lang-width;
             height: auto;
         }
     }
     &-lang{
-        margin-right: 1rem;
-        width: 50px;
+        margin-right: $side-margin;
+        width: $logo-lang-width;
         height: auto;
 
         &-button{

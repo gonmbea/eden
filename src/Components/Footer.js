@@ -25,7 +25,7 @@ function Footer() {
                     </a>
                 </div>
                 <div>
-                    <a href="mailto:max.beatrizgonmoura@gmail.com?body=Write me something here :)">
+                    <a href="mailto:beatrizgonmoura@gmail.com?body=Write me something here :)">
                         <FontAwesomeIcon icon={faEnvelope}  className='icon'/>
                     </a>
                 </div>

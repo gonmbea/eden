@@ -7,16 +7,24 @@
 
     },
     "Hero":{
-        "title": "SEJA BEM-VINDO",
+        "title": "BEM-VINDOS",
         "subtitle":"ao meu Éden"
 
     },
     "AboutMe":{
+        "contact": "Contacte-me",
+        "resume": "Currículo",
         "title": "SOU BEATRIZ",
         "paragraph":"I’m a Computer Science student with a soft spot for creativity — whether it’s in code, crochet, or cute little sketches. I love blending logic with artistry, and I'm always excited to learn new things and build beautiful, meaningful projects. When I’m not debugging or designing, you’ll probably find me crocheting something cozy or doodling in my sketchbook"
 
     },
     "Creations":{
-        "title": "MINHAS CRIACOES"
+        "title": "MINHAS CRIAÇÕES",
+        "sketches": "Desenhos",
+        "projects": "Projetos",
+        "crafts": "Artesanato"
+    },
+    "Footer":{
+        "copyright": "2025 Eden"
     }
 }
