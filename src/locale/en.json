@@ -23,5 +23,9 @@
         "sketches": "Sketches",
         "projects": "Projects",
         "crafts": "Crafts"
+    },
+    "Footer":{
+        "email": "beatrizgonmoura@gmail.com",
+        "copyright": "2025 Eden"
     }
 }

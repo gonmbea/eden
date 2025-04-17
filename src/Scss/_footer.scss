@@ -1,0 +1,33 @@
+@import './variables';
+
+.footer{
+    &-container{
+        width: 100%;
+        height: $navbar-height;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: auto;
+        position: relative;
+
+    }
+
+    &-icons{
+        display: flex;
+        gap:15px;
+    }
+    &-email{
+        a{
+            color: $brown-text;
+            &:hover{
+                color: $purple-lighter;
+            }
+        }
+    }
+    &-copyright{
+        
+    }
+
+
+}
