@@ -18,13 +18,13 @@
 
     &-gallery{
         display: flex;
-        gap: 20px;
+        gap: $gap-between-photos;
         justify-content: center;
 
         .collumn{
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: $gap-between-photos;
         }
 
         .photo{
@@ -32,7 +32,7 @@
             img{
                 width: 100%;
                 height: auto;
-                border-radius: 5px;
+                border-radius: $photo-border-radius;
 
             }
             
