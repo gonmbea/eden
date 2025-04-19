@@ -29,12 +29,21 @@ function Creations() {
 
                 </div>
                 <div className='creations-fruits'>
-                    <img src={figo} alt='Figo by Beatriz'/>
-                    <p>{t("projects")}</p>
+                    <Link to="/Wip">
+                        <img src={figo} alt='Figo by Beatriz'/>
+                    </Link>
+                    <Link to="/Wip">
+                        <p>{t("projects")}</p>
+                    </Link>
                 </div>
                 <div className='creations-fruits'>
-                    <img src={maracuja} alt='Maracuja by Beatriz'/>
-                    <p>{t("crafts")}</p>
+                    <Link to="/Wip">
+                        <img src={maracuja} alt='Maracuja by Beatriz'/>
+                    </Link>
+                    <Link to="/Wip">
+                        <p>{t("crafts")}</p>
+                    </Link>
+                    
                 </div>
 
             </div>
@@ -44,4 +53,4 @@ function Creations() {
     );
 }
 
-export default Creations; 
+export default Creations;

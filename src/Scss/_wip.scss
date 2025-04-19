@@ -1,0 +1,12 @@
+@import './variables';
+
+.wip-container{
+    width: $global-central-width;
+    margin: 0;
+    padding-top: $navbar-height;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+
+}

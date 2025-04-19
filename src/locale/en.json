@@ -30,5 +30,10 @@
     },
     "Footer":{
         "copyright": "2025 Eden"
+    },
+    "WIP":{
+        "title": "WORK IN PROGRESS",
+        "text": "We are currently still working on this page!",
+        "subtext": "Thanks for the patience :)"
     }
 }

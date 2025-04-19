@@ -11,10 +11,10 @@ function AboutMe() {
     
     return(
         <div className='about-container'>
-            <div className='about-right'>
+            <div className='about-left'>
                 <h1 className='about-text-heading'>{t("title")}</h1>
                 <p>{t("paragraph")}</p>
-                <div className='about-right-buttons'>
+                <div className='about-left-buttons'>
                     <button className='contact-button'>{t("contact")}</button>
 
                     <a href={resume} download>
@@ -23,7 +23,7 @@ function AboutMe() {
                 </div>
                 
             </div>
-            <div className='about-left'>
+            <div className='about-right'>
                 <img src={house} alt='House Sketch by Beatriz'/>
             </div>
         </div>

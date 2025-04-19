@@ -49,7 +49,7 @@ function NavBar() {
                         </AnchorLink>
                     </li>
                     <li>
-                        <Link className="link" to="/Projects">
+                        <Link className="link" to="/Wip">
                             {t("projects")}
                         </Link>
                     </li>
@@ -59,7 +59,7 @@ function NavBar() {
                         </Link>
                     </li>
                     <li>
-                        <Link className="link" to="/Contact">
+                        <Link className="link" to="/Wip">
                             {t("contact")}
                         </Link>
                     </li>

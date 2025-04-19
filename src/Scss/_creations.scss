@@ -1,10 +1,5 @@
 @import './variables';
 
-// body{
-//     background-color:$neutral-background;
-//     min-width: 100%;
-// }
-
 .creations{
     &-container{
         width: $global-central-width;
@@ -16,13 +11,6 @@
 
     }
 
-    &-top{
-        h1{
-            font-weight: normal;
-        }
-    }
-    
-
     &-bottom{
         display: flex;
     }
@@ -31,17 +19,26 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        
         img{
             width: 270px;
             height: 250px;
         }
-    
-        // &:hover{
-        //     border-radius: 35%;
-        //     background-color: $cool-background;
-    
-        // }
+
+        p{
+            text-decoration: none;
+            &:hover{
+                color: $brown-effects;
+            }
+        }
     }
 
+}
+
+@media(max-width: 768px) {
+
+    .creations-bottom{
+        flex-direction: column;
+    }
+    
 }
