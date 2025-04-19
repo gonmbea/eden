@@ -8,6 +8,7 @@ import AboutMe from './Pages/AboutMe';
 import Creations from './Components/Creations';
 
 import Contact from './Components/Contact';
+import Art from './Pages/Art';
 import Footer from './Components/Footer';
 
 
@@ -40,7 +41,8 @@ function App() {
                     <NavBar />
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/AboutMe" element={<AboutMe />} />
+                        {/* <Route path="/AboutMe" element={<AboutMe />} /> */}
+                        <Route path="/Art" element={<Art />} />
                         <Route path="/Contact" element={<Contact />} />
                     </Routes>
                     <Footer />

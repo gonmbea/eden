@@ -1,0 +1,51 @@
+@import "./variables";
+
+.art{
+    &-container{
+        width: $global-central-width;
+        margin: 0;
+        padding-top: $navbar-height;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-self: center;
+        justify-content: center;
+
+        h1{
+            font-weight: normal;
+        }
+    }
+
+    &-gallery{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+
+        .collumn{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .photo{
+
+            img{
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+
+            }
+            
+        }
+    }
+
+
+}
+
+@media(max-width: 768px) {
+
+    .art-gallery{
+        flex-direction: column;
+    }
+    
+}

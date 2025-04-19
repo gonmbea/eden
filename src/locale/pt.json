@@ -24,6 +24,9 @@
         "projects": "Projetos",
         "crafts": "Artesanato"
     },
+    "Art":{
+        "title": "GALERIA"
+    },
     "Footer":{
         "copyright": "2025 Eden"
     }
