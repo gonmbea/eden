@@ -1,7 +1,7 @@
 @import "./variables";
 
-.art{
-    &-container{
+.art {
+    &-container {
         width: $gallery-central-width;
         margin: 0;
         padding-top: $navbar-height;
@@ -13,37 +13,37 @@
 
     }
 
-    &-gallery{
-        display: flex;
-        gap: $gap-between-photos;
-        justify-content: center;
+    &-gallery {
+        column-count: 3;
+        column-gap: $gap-between-photos;
 
-        .collumn{
-            display: flex;
-            flex-direction: column;
-            gap: $gap-between-photos;
-            // width: 100%;
-        }
+        .photo {
+            break-inside: avoid;
+            margin-bottom: $gap-between-photos;
 
-        .photo{
-
-            img{
+            img {
                 width: 100%;
                 height: auto;
                 border-radius: $photo-border-radius;
-
+                display: block;
             }
-            
         }
     }
 
 
 }
 
-@media(max-width: 768px) {
 
-    .art-gallery{
-        flex-direction: column;
+
+
+@media (max-width: 1024px) {
+    .art-gallery {
+        column-count: 2;
     }
-    
+}
+
+@media (max-width: 600px) {
+    .art-gallery {
+        column-count: 1;
+    }
 }

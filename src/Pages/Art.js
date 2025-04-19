@@ -32,84 +32,40 @@ function Art() {
 
     const { t } = useTranslation("Art");
 
+    const artWork = [
+        stJamesAnglican,
+        idosa,
+        cubismChicken,
+        pinkScream,
+        whieRabit,
+        mel,
+        homemAzul,
+        bule,
+        mug,
+        blueShop,
+        oldCity,
+        barringtonSt,
+        olhos,
+        womanScreaming,
+        casaJp,
+        perfil,
+        selfPortrait,
+        birthdayFrog,
+        trunkGuy,
+        gardenFaeries,
+        bebe
+    ];
+
     return (
         <div className="art-container">
             <h1>{t("title")}</h1>
 
-            {/* Three Collumns, with 9 images each */}
             <div className="art-gallery">
-                {/* Collumn 1 */}
-                <div className="collumn">
-                    <div className="photo">
-                        <img src={stJamesAnglican} />
+                {artWork.map((artWork, index) => (
+                    <div className="photo" key={index}>
+                        <img src={artWork} alt={`Artwork ${index}`} />
                     </div>
-                    <div className="photo">
-                        <img src={birthdayFrog} />
-                    </div>
-                    <div className="photo">
-                        <img src={bule} />
-                    </div>
-                    <div className="photo">
-                        <img src={blueShop} />
-                    </div>
-                    <div className="photo">
-                        <img src={casaJp} />
-                    </div>
-                    <div className="photo">
-                        <img src={trunkGuy} />
-                    </div>
-                </div>
-                {/* Collumn 2 */}
-                <div className="collumn">
-                    <div className="photo">
-                        <img src={idosa} />
-                    </div>
-                    <div className="photo">
-                        <img src={pinkScream} />
-                    </div>
-                    <div className="photo">
-                        <img src={mel} />
-                    </div>
-                    <div className="photo">
-                        <img src={mug} />
-                    </div>
-                    <div className="photo">
-                        <img src={oldCity} />
-                    </div>
-                    <div className="photo">
-                        <img src={olhos} />
-                    </div>
-                    <div className="photo">
-                        <img src={perfil} />
-                    </div>
-                    <div className="photo">
-                        <img src={gardenFaeries} />
-                    </div>
-                </div>
-                {/* Collumn 3 */}
-                <div className="collumn">
-                    <div className="photo">
-                        <img src={cubismChicken} />
-                    </div>
-                    <div className="photo">
-                        <img src={whieRabit} />
-                    </div>
-                    <div className="photo">
-                        <img src={homemAzul} />
-                    </div>
-                    <div className="photo">
-                        <img src={barringtonSt} />
-                    </div>
-                    <div className="photo">
-                        <img src={womanScreaming} />
-                    </div>
-                    <div className="photo">
-                        <img src={selfPortrait} />
-                    </div>
-                    <div className="photo">
-                        <img src={bebe} />
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     );

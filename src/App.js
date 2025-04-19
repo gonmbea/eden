@@ -6,7 +6,7 @@ import NavBar from './Components/NavBar';
 import Hero from './Components/Hero';
 import AboutMe from './Pages/AboutMe';
 import Creations from './Components/Creations';
-import Wip from './Components/Wip';
+import Wip from './Pages/Wip';
 
 import Contact from './Components/Contact';
 import Art from './Pages/Art';

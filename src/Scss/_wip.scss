@@ -1,12 +1,16 @@
 @import './variables';
 
-.wip-container{
+.wip{
+    &-container{
     width: $global-central-width;
-    margin: 0;
+    margin: 0 auto;
     padding-top: $navbar-height;
     display: flex;
     flex-direction: column;
-    align-self: center;
     text-align: center;
 
+    img{
+        width: 15rem;
+    }
+}
 }
