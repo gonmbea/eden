@@ -21,23 +21,23 @@ function NavBar() {
 
     return (
         <div className="navbar">
-
             {/* Logo which will be hidden in the home page */}
-                <div className="navbar-logo" 
-                style={{ 
-                    visibility: isHomePage ? 'hidden' : 'visible',
-                    // Optional: maintain width even when hidden
-                    width: isHomePage ? '50px' : 'auto',
-                    marginLeft: '1rem'
+            <div
+                className="navbar-logo"
+                style={{
+                    visibility: isHomePage ? "hidden" : "visible",
+                    // maintains width even when hidden
+                    width: isHomePage ? "50px" : "auto",
+                    marginLeft: "1rem",
                 }}
-                >
-                    <Link to="/">
-                        <img src={edenLogo} alt="Eden Logo"/>
-                    </Link>
-                </div>
+            >
+                <Link to="/">
+                    <img src={edenLogo} alt="Eden Logo" />
+                </Link>
+            </div>
 
             <div>
-            <ul className="navbar-links">
+                <ul className="navbar-links">
                     <li>
                         <Link className="link" to="/">
                             {t("home")}
@@ -64,7 +64,6 @@ function NavBar() {
                         </Link>
                     </li>
                 </ul>
-
             </div>
 
             {/* Button that switches langueages */}
