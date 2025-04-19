@@ -60,5 +60,61 @@
         }
 
     }
-    
+
+    &-responsive {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 0.5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar{
+
+        &-logo{
+            display: none;
+        }
+
+        &-responsive{
+            margin-left: $side-margin;
+        }
+
+        &-links {
+            margin: 0;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            width: 200px;
+            position: absolute;
+            top: $navbar-height;
+            left: 0;
+            z-index: 1000;
+
+            &.open {
+                display: flex;
+            }
+
+            li {
+                margin: $responsive-margin 0;
+            }
+        }
+
+        &-responsive {
+            display: flex;
+        }
+
+        &-lang {
+            width: auto;
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+    .navbar-links{
+        width: 100%;
+    }
 }
