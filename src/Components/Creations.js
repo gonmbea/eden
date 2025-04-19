@@ -4,6 +4,7 @@ import figo from '../Assets/Creations/figo.png';
 import roma from '../Assets/Creations/roma.png';
 import maracuja from '../Assets/Creations/maracuja.png';
 import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom';
 
 
 
@@ -19,8 +20,13 @@ function Creations() {
             </div>
             <div className='creations-bottom'>
                 <div className='creations-fruits'>
-                    <img src={roma} alt='Roma by Beatriz'/>
-                    <p>{t("sketches")}</p>
+                    <Link to="/Art">
+                        <img src={roma} alt='Roma by Beatriz'/>
+                    </Link>
+                    <Link to="/Art">
+                        <p>{t("sketches")}</p>
+                    </Link>
+
                 </div>
                 <div className='creations-fruits'>
                     <img src={figo} alt='Figo by Beatriz'/>
