@@ -32,95 +32,86 @@ function Art() {
 
     const { t } = useTranslation("Art");
 
-    return(
-    
-    <div className='art-container'>
-        <h1>{t("title")}</h1>
+    return (
+        <div className="art-container">
+            <h1>{t("title")}</h1>
 
-        {/* Three Collumns, with 9 images each */}
-        <div className='art-gallery'>
-        <div className='collumn'>
-                <div className='photo' >
-                    <img src={stJamesAnglican}/>
+            {/* Three Collumns, with 9 images each */}
+            <div className="art-gallery">
+                {/* Collumn 1 */}
+                <div className="collumn">
+                    <div className="photo">
+                        <img src={stJamesAnglican} />
+                    </div>
+                    <div className="photo">
+                        <img src={birthdayFrog} />
+                    </div>
+                    <div className="photo">
+                        <img src={bule} />
+                    </div>
+                    <div className="photo">
+                        <img src={blueShop} />
+                    </div>
+                    <div className="photo">
+                        <img src={casaJp} />
+                    </div>
+                    <div className="photo">
+                        <img src={trunkGuy} />
+                    </div>
                 </div>
-                <div className='photo' >
-                    <img src={birthdayFrog}/>
+                {/* Collumn 2 */}
+                <div className="collumn">
+                    <div className="photo">
+                        <img src={idosa} />
+                    </div>
+                    <div className="photo">
+                        <img src={pinkScream} />
+                    </div>
+                    <div className="photo">
+                        <img src={mel} />
+                    </div>
+                    <div className="photo">
+                        <img src={mug} />
+                    </div>
+                    <div className="photo">
+                        <img src={oldCity} />
+                    </div>
+                    <div className="photo">
+                        <img src={olhos} />
+                    </div>
+                    <div className="photo">
+                        <img src={perfil} />
+                    </div>
+                    <div className="photo">
+                        <img src={gardenFaeries} />
+                    </div>
                 </div>
-                <div className='photo' >
-                    <img src={bule}/>
+                {/* Collumn 3 */}
+                <div className="collumn">
+                    <div className="photo">
+                        <img src={cubismChicken} />
+                    </div>
+                    <div className="photo">
+                        <img src={whieRabit} />
+                    </div>
+                    <div className="photo">
+                        <img src={homemAzul} />
+                    </div>
+                    <div className="photo">
+                        <img src={barringtonSt} />
+                    </div>
+                    <div className="photo">
+                        <img src={womanScreaming} />
+                    </div>
+                    <div className="photo">
+                        <img src={selfPortrait} />
+                    </div>
+                    <div className="photo">
+                        <img src={bebe} />
+                    </div>
                 </div>
-                <div className='photo' >
-                    <img src={blueShop}/>
-                </div>
-                <div className='photo' >
-                    <img src={casaJp}/>
-                </div>
-                <div className='photo' >
-                    <img src={trunkGuy}/>
-                </div>
-                
-
             </div>
-            <div className='collumn'>
-                <div className='photo' >
-                    <img src={idosa}/>
-                </div>
-                {/* <div className='photo' >
-                    <img src={leConsulat}/>
-                </div> */}
-                <div className='photo' >
-                    <img src={pinkScream}/>
-                </div>
-                <div className='photo' >
-                    <img src={mel}/>
-                </div>
-                <div className='photo' >
-                    <img src={mug}/>
-                </div>
-                <div className='photo' >
-                    <img src={oldCity}/>
-                </div>
-                <div className='photo' >
-                    <img src={olhos}/>
-                </div>
-                <div className='photo' >
-                    <img src={perfil}/>
-                </div>
-                <div className='photo' >
-                    <img src={gardenFaeries}/>
-                </div>
-                
-
-            </div>
-            <div className='collumn'>
-                <div className='photo' >
-                    <img src={cubismChicken}/>
-                </div>
-                <div className='photo' >
-                    <img src={whieRabit}/>
-                </div>
-                <div className='photo' >
-                    <img src={homemAzul}/>
-                </div>
-                <div className='photo' >
-                    <img src={barringtonSt}/>
-                </div>
-                <div className='photo' >
-                    <img src={womanScreaming}/>
-                </div>
-                <div className='photo' >
-                    <img src={selfPortrait}/>
-                </div>
-                <div className='photo' >
-                    <img src={bebe}/>
-                </div>
-                
-
-            </div>
-
         </div>
-    </div>
-    
     );
 }
 

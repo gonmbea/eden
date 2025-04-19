@@ -2,7 +2,7 @@
 
 .art{
     &-container{
-        width: $global-central-width;
+        width: $gallery-central-width;
         margin: 0;
         padding-top: $navbar-height;
         display: flex;
@@ -25,6 +25,7 @@
             display: flex;
             flex-direction: column;
             gap: $gap-between-photos;
+            // width: 100%;
         }
 
         .photo{
