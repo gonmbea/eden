@@ -6,6 +6,8 @@ import maracuja from '../Assets/Creations/maracuja.png';
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
 
+import { motion } from "framer-motion";
+
 
 
 function Creations() {
@@ -21,7 +23,7 @@ function Creations() {
             <div className='creations-bottom'>
                 <div className='creations-fruits'>
                     <Link to="/Art" >
-                        <img src={roma} alt='Roma by Beatriz'/>
+                        <motion.img src={roma} alt='Roma by Beatriz' whileHover={{scale:1.1}} />
                     </Link>
                     <Link to="/Art" className='link'>
                         <p>{t("sketches")}</p>
@@ -30,15 +32,15 @@ function Creations() {
                 </div>
                 <div className='creations-fruits'>
                     <Link to="/Wip">
-                        <img src={figo} alt='Figo by Beatriz'/>
+                        <motion.img src={figo} alt='Figo by Beatriz' whileHover={{scale:1.1}}/>
                     </Link>
                     <Link to="/Wip" className='link'>
                         <p>{t("projects")}</p>
                     </Link>
                 </div>
                 <div className='creations-fruits'>
-                    <Link to="/Wip">
-                        <img src={maracuja} alt='Maracuja by Beatriz'/>
+                    <Link to="/Wip" >
+                        <motion.img src={maracuja} alt='Maracuja by Beatriz' whileHover={{scale:1.1}}/>
                     </Link>
                     <Link to="/Wip" className='link'>
                         <p>{t("crafts")}</p>
