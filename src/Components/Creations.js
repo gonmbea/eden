@@ -20,10 +20,10 @@ function Creations() {
             </div>
             <div className='creations-bottom'>
                 <div className='creations-fruits'>
-                    <Link to="/Art">
+                    <Link to="/Art" >
                         <img src={roma} alt='Roma by Beatriz'/>
                     </Link>
-                    <Link to="/Art">
+                    <Link to="/Art" className='link'>
                         <p>{t("sketches")}</p>
                     </Link>
 
@@ -32,7 +32,7 @@ function Creations() {
                     <Link to="/Wip">
                         <img src={figo} alt='Figo by Beatriz'/>
                     </Link>
-                    <Link to="/Wip">
+                    <Link to="/Wip" className='link'>
                         <p>{t("projects")}</p>
                     </Link>
                 </div>
@@ -40,7 +40,7 @@ function Creations() {
                     <Link to="/Wip">
                         <img src={maracuja} alt='Maracuja by Beatriz'/>
                     </Link>
-                    <Link to="/Wip">
+                    <Link to="/Wip" className='link'>
                         <p>{t("crafts")}</p>
                     </Link>
                     

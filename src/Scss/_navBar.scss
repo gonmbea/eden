@@ -26,10 +26,13 @@
             color: $brown-text;
             font-family: $font-family-main;
             font-weight: bold;
-            text-decoration: underline;
+            border-bottom: $lang-border;
+            border-color: $brown-text;
+
 
             &:hover{
                 color: $brown-effects;
+                border-color: $brown-effects;
             }
 
         }
@@ -66,6 +69,7 @@
         flex-direction: column;
         cursor: pointer;
         padding: 0.5rem;
+        color: $brown-text;
     }
 }
 
