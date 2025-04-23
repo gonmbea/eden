@@ -21,7 +21,34 @@
         align-items: center;
 
         .link{
+            color: $brown-text;
+            font-size: 16px;
             text-decoration: none;
+            transition: all 0.3s ease 0;
+
+            &:hover{
+                color: $brown-effects;
+            }
+
+            p{
+                position: relative;
+            }
+
+            p::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                width: 0;
+                height: $animation-height;
+                bottom: $animation-bottom;
+                left: $animation-left;
+                border-radius: $animation-border-radius;
+                background-color: $brown-text;
+                transition: width .2s;
+            }
+            p:hover:after{
+                width: 100%;
+            }
         }
         
         img{
@@ -29,12 +56,6 @@
             height: 250px;
         }
 
-        p{
-            text-decoration: none;
-            &:hover{
-                color: $brown-effects;
-            }
-        }
     }
 
 }
