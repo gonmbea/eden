@@ -1,0 +1,44 @@
+{
+    "NavBar":{
+        "home": "Home",
+        "aboutMe":"Sobre Mim",
+        "projects": "Projetos",
+        "art":"Arte",
+        "contact": "Contato"
+
+    },
+    "Hero":{
+        "title": "BEM-VINDOS",
+        "subtitle":"ao meu Éden"
+
+    },
+    "AboutMe":{
+        "contact": "Contacte-me",
+        "resume": "Currículo",
+        "title": "SOU BEATRIZ",
+        "paragraph":"Oi! Sou a Beatriz, estudante de Ciência da Computação, e gosto de me expressar de forma criativa, seja através de código, artesanato ou artes visuais. Amo misturar lógica com arte, especialmente quando posso aprender algo novo e criar projetos bonitos e cheios de significado. Quando não estou trabalhando em algo novo, provavelmente estou em contato com a natureza, que me inspira e muitas vezes se reflete nas minhas criações"
+
+    },
+    "Creations":{
+        "title": "MINHAS CRIAÇÕES",
+        "sketches": "Desenhos",
+        "projects": "Projetos",
+        "crafts": "Artesanato"
+    },
+    "Art":{
+        "title": "GALERIA"
+    },
+    "Contact":{
+        "title": "ENTRE EM CONTATO",
+        "text": "Para assuntos profissionais, você pode entrar em contato comigo por e-mail ou pelo LinkedIn",
+        "email": "beatrizgonmoura@gmail.com"
+    },
+    "Footer":{
+        "copyright": "2025 Eden"
+    },
+    "WIP":{
+        "title": "EM DESENVOLVIMENTO",
+        "text": "Estamos atualmente trabalhando nesta página!",
+        "subtext": "Obrigada pela paciência :)"
+    }
+}

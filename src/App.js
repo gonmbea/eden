@@ -6,8 +6,10 @@ import NavBar from './Components/NavBar';
 import Hero from './Components/Hero';
 import AboutMe from './Pages/AboutMe';
 import Creations from './Components/Creations';
+import Wip from './Pages/Wip';
 
 import Contact from './Components/Contact';
+import Art from './Pages/Art';
 import Footer from './Components/Footer';
 
 
@@ -19,14 +21,14 @@ function Home() {
             <div className="Hero">
                 <Hero />
             </div>
-            <div className="Contact">
-                <Contact />
-            </div>
             <div id="aboutMe" className="AboutMe">
                 <AboutMe />
             </div>
             <div className="Creations">
                 <Creations />
+            </div>
+            <div className="Contact">
+                <Contact />
             </div>
         </>
     );
@@ -40,8 +42,9 @@ function App() {
                     <NavBar />
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/AboutMe" element={<AboutMe />} />
+                        <Route path="/Art" element={<Art />} />
                         <Route path="/Contact" element={<Contact />} />
+                        <Route path="/Wip" element={<Wip />} />
                     </Routes>
                     <Footer />
                 </div>

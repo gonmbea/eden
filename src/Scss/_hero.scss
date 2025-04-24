@@ -8,7 +8,6 @@
     align-items: center;
     background-color: $cool-background;
     min-width: 100%;
-    padding-left: 25px;
 
 
     &-logo{
@@ -34,6 +33,31 @@
         }
         h1, h3{
             font-weight: normal;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero-container {
+        &-logo {
+            img {
+            height: 70px;
+            width: 70px;
+            margin-top: $hero-vertical-margin;
+            }
+        }
+    
+        &-text {
+            margin-bottom: $hero-vertical-margin;
+    
+            h1 {
+            font-size: 48px;
+            }
+    
+            h3 {
+            font-size: 24px;
+            }
         }
     }
 }

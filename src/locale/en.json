@@ -1,5 +1,6 @@
 {
     "NavBar":{
+        "home":"Home",
         "aboutMe":"About Me",
         "projects": "Projects",
         "art":"Art",
@@ -15,7 +16,7 @@
         "contact": "Contact Me",
         "resume": "Resume",
         "title": "MEET BEATRIZ",
-        "paragraph":"I’m a Computer Science student with a soft spot for creativity — whether it’s in code, crochet, or cute little sketches. I love blending logic with artistry, and I'm always excited to learn new things and build beautiful, meaningful projects. When I’m not debugging or designing, you’ll probably find me crocheting something cozy or doodling in my sketchbook"
+        "paragraph":"Hi! I’m Beatriz, a Computer Science student who enjoys expressing herself creatively, whether through code, crafts, or visual arts. I love mixing logic with art, especially when I get to learn new things and build beautiful, meaningful projects. When I’m not working on something new, you’ll probably find me spending time in nature, which inspires and often finds its way into most of my creations."
 
     },
     "Creations":{
@@ -24,8 +25,20 @@
         "projects": "Projects",
         "crafts": "Crafts"
     },
+    "Art":{
+        "title": "GALLERY"
+    },
+    "Contact":{
+        "title": "CONTACT ME",
+        "text": "For professinal inquiries, you can reach me through email or LinkedIn",
+        "email": "beatrizgonmoura@gmail.com"
+    },
     "Footer":{
-        "email": "beatrizgonmoura@gmail.com",
         "copyright": "2025 Eden"
+    },
+    "WIP":{
+        "title": "WORK IN PROGRESS",
+        "text": "We are currently still working on this page!",
+        "subtext": "Thanks for the patience :)"
     }
 }
