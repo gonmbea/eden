@@ -1,5 +1,6 @@
 {
     "NavBar":{
+        "home": "Home",
         "aboutMe":"Sobre Mim",
         "projects": "Projetos",
         "art":"Arte",
@@ -15,7 +16,7 @@
         "contact": "Contacte-me",
         "resume": "Currículo",
         "title": "SOU BEATRIZ",
-        "paragraph":"I’m a Computer Science student with a soft spot for creativity — whether it’s in code, crochet, or cute little sketches. I love blending logic with artistry, and I'm always excited to learn new things and build beautiful, meaningful projects. When I’m not debugging or designing, you’ll probably find me crocheting something cozy or doodling in my sketchbook"
+        "paragraph":"Oi! Sou a Beatriz, estudante de Ciência da Computação, e gosto de me expressar de forma criativa, seja através de código, artesanato ou artes visuais. Amo misturar lógica com arte, especialmente quando posso aprender algo novo e criar projetos bonitos e cheios de significado. Quando não estou trabalhando em algo novo, provavelmente estou em contato com a natureza, que me inspira e muitas vezes se reflete nas minhas criações"
 
     },
     "Creations":{
@@ -26,6 +27,11 @@
     },
     "Art":{
         "title": "GALERIA"
+    },
+    "Contact":{
+        "title": "ENTRE EM CONTATO",
+        "text": "Para assuntos profissionais, você pode entrar em contato comigo por e-mail ou pelo LinkedIn",
+        "email": "beatrizgonmoura@gmail.com"
     },
     "Footer":{
         "copyright": "2025 Eden"

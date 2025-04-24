@@ -21,14 +21,14 @@ function Home() {
             <div className="Hero">
                 <Hero />
             </div>
-            <div className="Contact">
-                <Contact />
-            </div>
             <div id="aboutMe" className="AboutMe">
                 <AboutMe />
             </div>
             <div className="Creations">
                 <Creations />
+            </div>
+            <div className="Contact">
+                <Contact />
             </div>
         </>
     );

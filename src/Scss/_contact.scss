@@ -1,6 +1,6 @@
-@import './variables';
+@import './_variables.scss';
 
-.wip{
+.contact{
     &-container{
         width: $global-central-width;
         margin: 0 auto;
@@ -9,8 +9,6 @@
         flex-direction: column;
         text-align: center;
 
-        img{
-            width: 15rem;
-        }
+
     }
 }

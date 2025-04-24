@@ -21,8 +21,17 @@ $navbar-height: 5rem;
 $gap-between-items: 35px;
 $side-margin: 1rem;
 $logo-lang-width: 60px;
+/* Responsive NavBar */
+// Tablet : max-width: 768px
+// Mobile : max-width: 600px
 $responsive-margin: 1rem;
 $lang-border: 1px solid;
+$responsive-width: 100%; // was 200px for tablet
+$responsive-border-radius: 5%;
+$responsive-top: 4.5rem;
+$bottom-navbar-opacity: 0.9;
+$bottom-navbar-height: 100vh;
+
 
 /* Hero Variables */
 $hero-vertical-margin: 2rem;
@@ -39,7 +48,6 @@ $button-border-radius: 5px;
 $gap-between-photos: 20px;
 $photo-border-radius: 5px;
 $gallery-central-width: 90%;
-
 
 /* Underline animation */
 $animation-border-radius: 5px;
