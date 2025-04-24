@@ -12,7 +12,7 @@ function Wip() {
                 <h1>{t("title")}</h1>
             </div>
             <div>
-                <img src={snail} />
+                <img src={snail} alt='snail'/>
             </div>
             <div>
                 <p>{t("text")}</p>

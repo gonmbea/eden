@@ -4,7 +4,7 @@ import '../Scss/_contact.scss';
 import { useTranslation } from 'react-i18next';
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 import mailbox from '../Assets/Contact/mailbox.png';
@@ -39,7 +39,7 @@ function Contact() {
                 </div>
             </div>
             <div className="contact-right">
-                <img src={mailbox} />
+                <img src={mailbox} alt='mailbox'/>
             </div>
         </div>
     );

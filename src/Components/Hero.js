@@ -12,7 +12,7 @@ function Hero() {
   <div className='hero-container'>
 
     <div className='hero-container-logo'>
-        <img src={edenLogo}/>
+        <img src={edenLogo} alt='house'/>
     </div>
     <div className='hero-container-text'>
         <h1>{t("title")}</h1>

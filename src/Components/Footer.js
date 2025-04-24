@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 
