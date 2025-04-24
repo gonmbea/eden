@@ -1,4 +1,4 @@
-# Eden – Ny Personal Portfolio Website
+# Eden – My Personal Portfolio Website
 
 **Eden** is a modern and responsive personal portfolio built with React. It serves as a digital space to showcase my work, creativity, and ways to get in touch.
 
