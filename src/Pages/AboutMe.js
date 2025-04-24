@@ -3,6 +3,8 @@ import '../Scss/_aboutMe.scss';
 import house from '../Assets/AboutMe/house.png';
 import resume from '../Assets/AboutMe/Resume2025.pdf'
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+
 
 import { motion } from "framer-motion";
 
@@ -16,12 +18,11 @@ function AboutMe() {
                 <h1 className="about-text-heading">{t("title")}</h1>
                 <p>{t("paragraph")}</p>
                 <div className="about-left-buttons">
-                    <motion.a
-                        href="/Contact"
-                        whileHover={{ scale: 1.1 }}
-                    >
-                        <button className="button">  {t("contact")} </button>
-                    </motion.a>
+                    <motion.div whileHover={{ scale: 1.1 }}>
+                        <Link to="/Contact">
+                            <button className="button">{t("contact")}</button>
+                        </Link>
+                    </motion.div>
                     <motion.a
                         href={resume}
                         download
