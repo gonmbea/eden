@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 
@@ -30,6 +30,14 @@ function Footer() {
                 >
                     <FontAwesomeIcon icon={faLinkedinIn} className="icon" />
                 </motion.a>
+{/* 
+                <motion.a
+                    href="https://github.com/gonmbea"
+                    target="_blank"
+                    whileHover={{ scale: 1.2 }}
+                >
+                    <FontAwesomeIcon icon={faGithub} />    
+                </motion.a> */}
 
                 <motion.a
                     href="mailto:beatrizgonmoura@gmail.com?body=Write me something here :)"
@@ -37,6 +45,7 @@ function Footer() {
                 >
                     <FontAwesomeIcon icon={faEnvelope} className="icon" />
                 </motion.a>
+                
             </div>
 
             <div className="footer-copyright">

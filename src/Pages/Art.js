@@ -26,6 +26,8 @@ import stJamesAnglican from '../Assets/Art/stJamesAnglican.png';
 import trunkGuy from '../Assets/Art/trunkGuy.png';
 import whieRabit from '../Assets/Art/whieRabit.png';
 import womanScreaming from '../Assets/Art/womanScreaming.png';
+import surf from '../Assets/Art/surf.png';
+
 
 
 function Art() {
@@ -44,6 +46,7 @@ function Art() {
         mug,
         blueShop,
         oldCity,
+        surf,
         barringtonSt,
         olhos,
         womanScreaming,
