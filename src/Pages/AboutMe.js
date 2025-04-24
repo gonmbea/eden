@@ -5,8 +5,6 @@ import resume from '../Assets/AboutMe/Resume2025.pdf'
 import { useTranslation } from "react-i18next";
 
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom';
-
 
 
 function AboutMe() {

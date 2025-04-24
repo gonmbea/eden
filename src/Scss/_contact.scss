@@ -6,9 +6,68 @@
         margin: 0 auto;
         padding-top: $navbar-height;
         display: flex;
-        flex-direction: column;
-        text-align: center;
-
+        justify-content: space-between;
 
     }
+
+    &-clickables{
+        display: flex;
+        align-items: center;
+        gap: $gap-between-icons;
+
+        .icon{
+            color: $brown-text;
+            &:hover{
+                color: $brown-effects;
+            }
+        }
+        a{
+            &:hover{
+                color: $brown-effects;
+            }
+        }
+    }
+
+    &-left{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-self: center;
+    }
+
+    &-right{
+        width: $right-width;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        img{
+            padding-top: $img-top-padding;
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+
+    .contact{
+        &-container{
+        flex-direction: column;
+        justify-content: center;
+        }
+
+        &-left{
+            text-align: center;
+        }
+        &-clickables{
+            justify-content: center;
+        }
+
+        &-right{
+            width: 50%;
+            margin: 0 auto;
+
+        }
+    }
+    
 }

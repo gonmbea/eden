@@ -32,7 +32,7 @@
     
     &-icons{
         display: flex;
-        gap:15px;
+        gap:$gap-between-icons;
 
         .icon{
             color: $brown-text;
