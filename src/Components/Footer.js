@@ -25,6 +25,7 @@ function Footer() {
 
                 <motion.a
                     href="https://www.linkedin.com/in/gonmbea/"
+                    target="_blank"
                     whileHover={{ scale: 1.2 }}
                 >
                     <FontAwesomeIcon icon={faLinkedinIn} className="icon" />
