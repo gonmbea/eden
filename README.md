@@ -1,6 +1,6 @@
 # Meu Éden
 
-Meu Éden is my first personal portfolio — a React and Sass project that combines my artwork with web development.  
+Meu Éden is my first personal portfolio, a React and Sass project that combines my artwork with web development.  
 All icons and illustrations are based on my own sketches, digitized to create a distinctive visual style.  
 
 ## Features
