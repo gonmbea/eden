@@ -11,6 +11,9 @@ All icons and illustrations are based on my own sketches, digitized to create a 
 ## Live Demo
 [meueden.netlify.app](https://meueden.netlify.app/)
 
+## Notes
+Please, please ignore the failing pipeline. This just isn't my priority anymore :)
+
 ## License
 All artwork and illustrations © Beatriz Moura.  
 Do not reuse or redistribute without permission.
